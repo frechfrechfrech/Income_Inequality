@@ -16,6 +16,18 @@ This 2015 data was obtained from the US Census Bureau Website, in particular thr
   2. Does median education rate impact income inequality?
   3. Does birth rate impact income inequality?
 
+## Goals for 3/13
+
+1. Procure all listed datapoints not already in the data folder
+2. Initial EDA to determine distribution of data and appropriate treatment
+3. Figure out how to use:
+    - education 
+        - just median # of year at school? 
+        - distribution across buckets (no high school diploma, some college, college degree, graduate degree)
+    - major ethnic groups
+        - should do proportions of each within community?
+        - is there a standard measure of diversity?
+
 ## Getting Started
 
 - Take a look at the Jupyter notebook for a detailed view of imports and settings.
