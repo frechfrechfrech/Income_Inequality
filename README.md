@@ -5,14 +5,14 @@ This 2015 data was obtained from the US Census Bureau Website, in particular thr
 ## Questions
 
   1. Can I predict income inequality in a county (measured by difference between top income quintile and bottom income quintile) based on factors like:
-    - Educational attainment - 
-    - Proportion of population major ethnic groups - 
-    - Population density - *Master*
-    - Birth rate - *all_data*
-    - Unemployment rate - need to find
-    - Target - diff between lowest and highest quintile https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
-        - this will be positive, bounded by zero. 
-        - likely NA's for some low-pop counties
+     - Educational attainment - 
+     - Proportion of population major ethnic groups - 
+     - Population density - *Master*
+     - Birth rate - *all_data*
+     - Unemployment rate - need to find
+     - Target - diff between lowest and highest quintile https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+          - this will be positive, bounded by zero. 
+          - likely NA's for some low-pop counties
   2. Does median education rate impact income inequality?
   3. Does birth rate impact income inequality?
 
