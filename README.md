@@ -28,11 +28,7 @@ This 2015 data was obtained from the US Census Bureau Website, in particular thr
   - Sklearn
   - Maplotlib
   - Seaborn
-
-```
-Give an example
-```
-
+  
 ## Built With
 
 * [Scikit-learn](http://scikit-learn.org/stable/) - Modeling
