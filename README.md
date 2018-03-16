@@ -13,24 +13,12 @@ This 2015 data was obtained from the US Census Bureau Website, in particular thr
      - Target - diff between lowest and highest quintile https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
           - this will be positive, bounded by zero. 
           - likely NA's for some low-pop counties
-  2. Does median education rate impact income inequality?
-  3. Does birth rate impact income inequality?
+  2. Do counties in population-dense states have meaningfully different income inequality vs low-density states?
 
-## Goals for 3/13
-
-1. Procure all listed datapoints not already in the data folder
-2. Initial EDA to determine distribution of data and appropriate treatment
-3. Figure out how to use:
-    - education 
-        - just median # of year at school? 
-        - distribution across buckets (no high school diploma, some college, college degree, graduate degree)
-    - major ethnic groups
-        - should do proportions of each within community?
-        - is there a standard measure of diversity?
 
 ## Getting Started
 
-- Take a look at the Jupyter notebook for a detailed view of imports and settings.
+- First pane in the Jupyter notebook contains all necessary imports. Additional helper functions are defined throughout the Jupyter notebook.
 - All code for this project will be based in Python3
 
 ### Prerequisites
@@ -41,38 +29,16 @@ This 2015 data was obtained from the US Census Bureau Website, in particular thr
   - Maplotlib
   - Seaborn
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
 ```
 Give an example
 ```
 
 ## Built With
 
-* [Scikit-learn](http://scikit-learn.org/stable/) - Modeling package
-* [Seaborn](https://seaborn.pydata.org/) - Data visualization package
+* [Scikit-learn](http://scikit-learn.org/stable/) - Modeling
+* [Seaborn](https://seaborn.pydata.org/) - Data Visualization
+* [Scipy] (https://www.scipy.org) - Statistical Analysis
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Author
 
@@ -80,4 +46,5 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Acknowledgments
 
-* Adam Richards and Chris Feller for project advising
+* Adam Richards, Chris Feller for project advising
+* Amelia Maier for correlation heat map
